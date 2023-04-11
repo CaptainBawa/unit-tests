@@ -1,0 +1,22 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stringLength.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaptainBawa/unit-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaptainBawa/unit-tests/issues"
+  },
+  "homepage": "https://github.com/CaptainBawa/unit-tests#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
