@@ -6,7 +6,7 @@ test('should return string length', () => {
   
 });
 
-test('should return string length', () => {
+test('should return string length greater than 1', () => {
   
   expect (() => {
     stringLength('');
@@ -14,7 +14,7 @@ test('should return string length', () => {
   
 });
 
-test('should return string length', () => {
+test('should return string length less than 10', () => {
   
   expect (() => {
     stringLength('My string is too long to pass this test');
