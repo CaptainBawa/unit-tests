@@ -1,9 +1,10 @@
 function stringLength(string) {
-    const stringArray = string.split("");
-    if (stringArray.length > 0 && stringArray.length <= 10){
-        return stringArray.reduce((pre, cur) => pre + cur.length, 0);
-      } else {
-        return 'string must contain at least 1 character or less than 10 characters';
-      }
+  if (string.length < 1) {
+    throw new Error ('string must contain at least 1 character')
+  } else if (string.length > 10) {
+    throw new Error ('string must not exceed 10 characters')
+  } else {
+    return string.length
+  }
   }
   module.exports = stringLength;
